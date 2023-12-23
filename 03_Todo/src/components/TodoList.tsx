@@ -29,7 +29,7 @@ export const TodoList = (props: Props) => {
                     type="checkbox"
                     className="checkbox"
                     checked={todo.completed}
-                    onClick={() => props.handleCheck(todo.id)}
+                    onChange={() => props.handleCheck(todo.id)}
                   />
                 </label>
               </td>
