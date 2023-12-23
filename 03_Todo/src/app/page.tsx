@@ -29,7 +29,7 @@ export default function Home() {
 
   return (
     <>
-      <div className="h-screen justify-center flex items-center">
+      <div className="justify-center flex items-center p-10">
         <Container>
           <TodoList
             todos={todos}
